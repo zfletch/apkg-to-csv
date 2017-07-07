@@ -1,5 +1,5 @@
 require './lib/apkg_to_csv/model'
-require './lib/apkg_to_csv/node'
+require './lib/apkg_to_csv/note'
 require './lib/apkg_to_csv/csv'
 
 module ApkgToCsv
