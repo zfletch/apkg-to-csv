@@ -8,7 +8,7 @@ require 'tempfile'
 filename = ARGV[0]
 
 if !filename
-  puts 'Filename requires'
+  puts 'Filename required'
   exit 1
 end
 
