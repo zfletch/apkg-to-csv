@@ -1,6 +1,6 @@
-require './lib/apkg_to_csv/model'
-require './lib/apkg_to_csv/note'
-require './lib/apkg_to_csv/csv'
+require_relative './apkg_to_csv/model'
+require_relative './apkg_to_csv/note'
+require_relative './apkg_to_csv/csv'
 
 module ApkgToCsv
   def self.csv(db)

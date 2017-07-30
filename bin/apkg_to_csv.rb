@@ -2,8 +2,8 @@
 
 require 'sqlite3'
 require 'zip'
-require './lib/apkg_to_csv'
 require 'tempfile'
+require_relative '../lib/apkg_to_csv'
 
 filename = ARGV[0]
 
