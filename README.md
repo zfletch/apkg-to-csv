@@ -9,10 +9,21 @@ It can be difficult to work with these decks without first importing them into A
 
 `apkg-to-csv` converts these decks into comma-separated values so that they can be modified without first importing them into Anki.
 
+## Requirements
+
+* `ruby ~> 2.4.0`
+
+## Installation
+
+```
+gem install bundler
+bundle install
+```
+
 ## Usage
 
-* `./bin/apkg_to_csv.rb deck.apkg > deck.csv`
+* `bundle exec ruby ./bin/apkg_to_csv.rb deck.apkg > deck.csv`
 
 ## Running Tests
 
-* `./test/test.sh`
+* `bundle exec bash ./test/test.sh`
